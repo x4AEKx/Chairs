@@ -1,0 +1,22 @@
+{
+  "name": "chairs",
+  "version": "1.0.0",
+  "description": "creating landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x4AEKx/Chairs.git"
+  },
+  "author": "Dmitry '4aek' Vlasov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x4AEKx/Chairs/issues"
+  },
+  "homepage": "https://github.com/x4AEKx/Chairs#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
