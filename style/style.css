@@ -153,7 +153,7 @@ section {
     font-weight: 500;
     font-size: 13px;
     margin-top: 19px;
-    border: solid 1px #e8e8e8;
+    border: 1px solid #9c9c9c;
     color: #9c9c9c;
 }
 
@@ -166,7 +166,7 @@ section {
 }
 
 .card__submit {
-    border: 1px solid #68b0c9;
+    border: none;
     font-size: 14px;
     font-weight: 700;
     margin-top: 15px;
@@ -378,7 +378,7 @@ input[type='submit']:disabled {
 .card-discount__button {
     width: 200px;
     height: 50px;
-    border: 1px solid #68b0c9;
+    border: none;
     outline: none;
     border-radius: 22.5px;
     box-shadow: 0px 5px 5px 0 rgba(1, 1, 1, 0.1);
@@ -527,7 +527,7 @@ input[type='submit']:disabled {
     text-align: right;
 }
 
-.discription__img {
+.description__img {
     background: url(../icons/2.png) center / contain no-repeat;
     width: 181px;
     height: 333px;
@@ -538,11 +538,11 @@ input[type='submit']:disabled {
     top: 132px;
 }
 
-.discription__arrow {
+.description__arrow {
     position: absolute;
 }
 
-.discription__arrow-1 {
+.description__arrow-1 {
     width: 122px;
     height: 109px;
     left: 0;
@@ -551,7 +551,7 @@ input[type='submit']:disabled {
     top: 140px;
 }
 
-.discription__arrow-2 {
+.description__arrow-2 {
     width: 144px;
     height: 54px;
     left: 0px;
@@ -560,7 +560,7 @@ input[type='submit']:disabled {
     bottom: 129px;
 }
 
-.discription__arrow-3 {
+.description__arrow-3 {
     width: 150px;
     height: 78px;
     left: 205px;
@@ -569,7 +569,7 @@ input[type='submit']:disabled {
     top: 100px;
 }
 
-.discription__arrow-4 {
+.description__arrow-4 {
     width: 143px;
     height: 53px;
     left: 180px;
@@ -643,7 +643,7 @@ input[type='submit']:disabled {
 
 .discount-form__p {
     color: #68b0c9;
-    border: 1px solid #ffffff;
+    border: none;
     background-color: #ffffff;
     margin: 10px auto 27px;
 }
@@ -651,9 +651,8 @@ input[type='submit']:disabled {
 .discount-form__input {
     width: 100%;
     height: 46px;
-    border: solid 1px #d5e4ef;
+    border: none;
     background-color: #ffffff;
-    border: 1px solid #ffffff;
 }
 
 .discount-form__submit {
@@ -661,7 +660,7 @@ input[type='submit']:disabled {
     height: 45px;
     box-shadow: 0px 5px 5px 0 rgba(1, 1, 1, 0.1);
     background-color: #68b0c9;
-    border: 1px solid #68b0c9;
+    border: none;
     color: white;
     margin-top: 20px;
 }
@@ -834,7 +833,7 @@ input[type='submit']:disabled {
     background-color: #68b0c9;
     font-weight: 700;
     color: #ffffff;
-    border: 1px solid #68b0c9;
+    border: none;
     text-transform: uppercase;
 }
 
