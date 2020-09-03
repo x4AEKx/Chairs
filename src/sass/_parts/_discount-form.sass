@@ -1,0 +1,76 @@
+%discount-text
+    font-family: 'MuseoSansCyrl'
+    font-size: 20px
+    font-weight: 700
+    line-height: 1.2
+    color: $secondary-color
+    text-align: center
+    margin: 0 auto
+    
+.discount-form
+    position: relative
+    display: flex
+    justify-content: flex-end
+    &__bg
+        background: url(../icons/5.png) center / cover no-repeat
+        height: 348px
+    &__circle
+        width: 160px
+        height: 157px
+        position: absolute
+        top: 78px
+        left: 0px
+        right: 330px
+        margin: auto
+        &-up
+            padding: 75px 0 0 0
+            font-size: 14.5px
+            position: relative 
+            &:before
+                content: 'Скидка 28%'
+                position: absolute
+                top: 27px
+                left: 0
+                right: 0
+                font-size: 17px
+                font-weight: 700
+                line-height: 2.76
+                color: #68b0c9
+                text-decoration: none
+        &-down
+            font-size: 24px 
+    &__form
+        display: flex
+        flex-wrap: wrap
+        width: 260px
+        margin: 59px 100px 0 0
+    &__p
+        @extend %discount-text
+        color: $primary-color
+        border: none
+        background-color: white
+        margin: 10px auto 27px
+    &__h3
+        @extend %discount-text
+    &__input
+        width: 100%
+        height: 46px
+        border: none
+        background-color: white
+    &__submit
+        width: 100%
+        height: 45px
+        box-shadow: 0px 5px 5px 0 rgba(1, 1, 1, 0.1)
+        background-color: $primary-color
+        border: none
+        color: white
+        margin-top: 20px
+    &__arrow
+        background: url(../icons/discount-form__arrow.svg) center / contain no-repeat
+        width: 65px
+        height: 105px
+        position: absolute
+        top: 123px
+        left: 829px
+        right: 0
+        margin: auto

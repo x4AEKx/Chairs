@@ -1,0 +1,114 @@
+.circle
+    font-family: 'MuseoSansCyrl'
+    background-color: white
+    border-radius: 50%
+    text-align: center
+    &-up
+        font-size: 18px
+        font-weight: 300
+        color: black
+        text-decoration: line-through
+    &-middle
+        display: inline-block
+        width: 120px
+        height: 1px
+        background-color: #e8e8e8
+    &-down
+        font-size: 30px
+        font-weight: 700
+        color: $discount-color
+    
+.discount
+    position: relative
+    height: 490px
+    &__bg
+        background: url(../icons/photo-148476.jpg) center / cover no-repeat
+    &__up
+        height: 50%
+        display: flex
+        justify-content: flex-end
+    &__text
+        width: 349px
+        text-align: center
+        font-family: 'MuseoSansCyrl'
+    &__h3
+        font-size: 55px
+        font-weight: 700
+        color: $secondary-color
+    &__h4
+        font-size: 26px
+        font-weight: 900
+        line-height: 1.54
+        color: $secondary-color
+    &__p
+        font-size: 25px
+        font-weight: 700
+        line-height: 1.52
+        color: $primary-color
+    &__circle
+        position: absolute
+        top: 190px
+        left: 0
+        right: 150px
+        margin: auto auto
+        width: 150px
+        height: 150px
+    &__circle-up
+        margin-top: 38px
+    &__circle-middle
+        margin: 10px 0
+    &__arrow
+        background: url(../icons/discount__arrow.svg) center / contain no-repeat
+        width: 155px
+        height: 64px
+        position: absolute
+        bottom: 73px
+        right: 0
+        left: 50px
+        margin: auto
+    &__down
+        height: 50%
+        display: flex
+        align-items: flex-end
+        justify-content: flex-end
+
+.card-discount
+    width: 275px
+    height: 200px
+    border-radius: 22.5px
+    border: solid 5px white
+    background-color: #ecf3f8
+    font-family: 'MuseoSansCyrl'
+    margin: 0px 62px 40px 0
+    &__text
+        text-align: center
+        padding-top: 37px
+    &__p
+        display: inline-block
+        text-align: left
+        font-size: 14px
+        font-weight: bold
+        color: $discount-color
+        margin: 0 12px
+    &__img
+        background: url(../icons/1450658253-calendar.png) center / contain no-repeat
+        padding: 18px
+        font-size: 30px
+        font-weight: bold
+        line-height: 1.03
+        color: white
+    &__button
+        width: 200px
+        height: 50px
+        border: none
+        outline: none
+        border-radius: 22.5px
+        box-shadow: 0px 5px 5px 0 rgba(1, 1, 1, 0.1)
+        background-color: $primary-color
+        font-family: 'MuseoSansCyrl'
+        font-size: 16px
+        font-weight: 700
+        text-align: center
+        color: white
+        cursor: pointer
+        margin: 35px

@@ -1,0 +1,74 @@
+%difference
+    font-size: 22px
+    width: 410px
+    
+.difference
+    margin: 62px 0 79px 0
+    font-family: 'MuseoSansCyrl'
+    font-weight: 700
+    position: relative
+    &__title
+        display: flex
+        justify-content: space-around
+    &__h3-left
+        @extend %difference
+        color: $secondary-color
+        margin-right: 30px
+        text-align: right
+    &__h3-right
+        @extend %difference
+        color: $primary-color
+        margin-left: 30px
+    &__text
+        display: flex
+        justify-content: space-between
+        &-left
+            text-align: right
+            color: $secondary-color 
+        &-right
+            color: $primary-color
+    &__p
+        font-size: 15px
+        width: 218px
+        margin-top: 29px
+    &__img
+        background: url(../icons/difference.jpg) center / contain no-repeat
+        width: 200px
+        height: 299px
+        position: absolute
+        top: 75px
+        left: 0
+        right: 0
+        margin: auto
+    &__arrow
+        width: 88px
+        height: 42px
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        margin: auto
+        &-1
+            top: 90px
+            right: 375px 
+        &-2
+            top: 183px
+            right: 375px 
+        &-3
+            top: 247px
+            right: 375px
+        &-4
+            top: 305px
+            right: 375px
+        &-5
+            top: 90px
+            left: 375px
+        &-6
+            top: 165px
+            left: 375px
+        &-7
+            top: 227px
+            left: 375px
+        &-8
+            top: 284px
+            left: 375px

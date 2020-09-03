@@ -1,0 +1,44 @@
+.top-header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 15px 0
+    &__phone
+        font-family: 'MuseoSansCyrl'
+        font-size: 24px
+        font-weight: 700
+        font-style: normal
+        line-height: 1.76
+        color: $secondary-color
+        text-decoration: none
+        text-transform: uppercase
+        position: relative
+        &::before
+            content: 'Заказать обратный звонок'
+            font-size: 14px
+            font-weight: 500
+            font-style: normal
+            line-height: 3.02
+            color: $secondary-color
+            text-decoration: underline
+            text-transform: initial
+            position: absolute
+            bottom: -20px
+            right: 0
+
+.logo
+    background: url(../icons/1.png) center / contain no-repeat
+    padding: 35px
+    position: relative
+    &::before
+        content: 'КРЫЛАТКО'
+        font-family: 'SourceSansPro'
+        font-style: normal
+        font-size: 22.5px
+        font-weight: 600
+        line-height: 1
+        text-transform: uppercase
+        color: $primary-color
+        position: absolute
+        bottom: 0
+        left: -11px
