@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 html(lang="ru")
-    head
-        meta(charset="UTF-8")
-        meta(
-            meta name="viewport" 
-            content="width=device-width, initial-scale=0.8, maximum-scale=3.0, minimum-scale=0.8"
-        )
-        title Chairs
-        link(rel="stylesheet", href="./style/style.css")
-    body
-        include ./_parts/_header.pug
-        include ./_parts/_top-header.pug
-        include ./_parts/_main.pug
-        include ./_parts/_discount.pug
-        include ./_parts/_count.pug
-        include ./_parts/_certification.pug
-        include ./_parts/_description.pug
-        include ./_parts/_discount-form.pug
-        include ./_parts/_difference.pug
-        include ./_parts/_map.pug
-        include ./_parts/_footer.pug
-        
+	head
+		meta(charset="UTF-8")
+		meta(
+			meta name="viewport" 
+			content="width=device-width, initial-scale=1"
+		)
+		title Chairs
+		link(rel="stylesheet", href="./style/style.css")
+	body
+		include ./_parts/_top-header.pug
+		include ./_parts/_header.pug
+		include ./_parts/_main.pug
+		include ./_parts/_discount.pug
+		include ./_parts/_count.pug
+		include ./_parts/_certification.pug
+		include ./_parts/_description.pug
+		include ./_parts/_discount-form.pug
+		include ./_parts/_difference.pug
+		include ./_parts/_map.pug
+		include ./_parts/_footer.pug
+		include ./_parts/_modal.pug
+		script(src='./scripts/script.js')
+		

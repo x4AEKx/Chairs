@@ -1,0 +1,26 @@
+.modal
+	form(action="#" method="POST")
+		.card
+			.card__close
+			.card__text
+				.card__title Обратный звонок
+				p.card__p Оставляйте номер, мы вам перезвоним!
+				input.input.card__input(
+					type="tel"
+					title="Используйте формат: +73337773377"
+					placeholder="Ваш телефон" 
+					name="phone"
+					pattern="([+])([0-9]{11})"
+					required
+				)
+				input.submit.card__submit(
+					type="submit"
+					value="ПЕРЕЗВОНИТЕ МНЕ"                                     
+				)
+
+.modal-submit
+	.card
+		.card__close
+		.card__text
+			.card__title Спасибо за вашу заявку!
+			p.card__p Наш менеджер свяжется с вами #[br] в ближайшее время!

@@ -1,4 +1,22 @@
-.wrapper
-    section.top-header
-        .logo
-        a(href='tel:+79507333170').top-header__phone +7 (950) 733-31-70
+.header-img
+	.wrapper
+		section.header
+			h1.header__h1 Сертифицированные детские #[br] бескаркасные автокресла
+			p.header__p с бесплатной доставкой по Челябинску
+			form(action='#' method='POST')
+				.card.header__card
+					.card__text
+						.card__title Нет времени читать?
+						p.card__p Оставляйте номер, мы вам перезвоним!
+						input.input.card__input(
+							type="tel"
+							title="Используйте формат: +73337773377"
+							placeholder="Ваш телефон" 
+							name="phone"
+							pattern="([+])([0-9]{11})"
+							required
+						)
+						input.submit.card__submit(
+							type="submit"
+							value="ПЕРЕЗВОНИТЕ МНЕ"                                     
+						)

@@ -10,10 +10,12 @@
                     .discount-form__h3 Оставьте заявку сейчас #[br] и получите
                     .discount-form__p бесплатную доставку!
                     input.input.discount-form__input(
-                        type="tel" 
-                        placeholder="Ваш телефон" 
-                        name="phone"
-                        pattern="([+])([0-9]+)"
+                        type="tel"
+						title="Используйте формат: +73337773377"
+						placeholder="Ваш телефон" 
+						name="phone"
+						pattern="([+])([0-9]{11})"
+						required
                     )
                     input.submit.discount-form__submit(
                         type="submit" 
