@@ -36,6 +36,10 @@ arrayForms.forEach(function(item) {
 	item.addEventListener('submit', function(e) {
 		e.preventDefault()
 
+		if(modal.classList.contains('modal__active')) {
+			modal.classList.remove('modal__active')
+		}
+
 		modalSubmit.classList.add('modal__active')
 
 		function functionModalClose() {
