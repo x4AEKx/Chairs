@@ -16,7 +16,7 @@ function pug() {
             collapseWhitespace: true,
             removeComments: true
         }))
-        .pipe(dest('./build/'))
+        .pipe(dest('./docs/'))
         .pipe(browserSync.stream())
 }
 
@@ -26,18 +26,18 @@ function sass() {
             outputStyle: 'compressed'
         }))
         .pipe(autoprefixer())
-        .pipe(dest('./build/style/'))
+        .pipe(dest('./docs/style/'))
         .pipe(browserSync.stream())
 }
 
 function fonts() {
   return src('./src/fonts/**/*')
-    .pipe(dest('./build/fonts/'))
+    .pipe(dest('./docs/fonts/'))
 }
 
 function scripts() {
 	return src('./src/scripts/**/*.js')
-	  .pipe(dest('./build/scripts/'))
+	  .pipe(dest('./docs/scripts/'))
 }
 
 function imageMinify() {
@@ -56,16 +56,16 @@ function imageMinify() {
 		  		]
 			})
 	  	]))
-	  	.pipe(dest('build/img'))
+	  	.pipe(dest('docs/img'))
 }
 
 function clear() {
-    return del('./build')
+    return del('./docs')
 }
 
 function serve() {
     browserSync.init({
-        server: './build/'
+        server: './docs/'
     })
 
     watch('./src/pug/**/*.pug', series(pug)).on('change', browserSync.reload)
